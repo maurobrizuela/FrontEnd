@@ -1,18 +1,14 @@
 .row{
-    padding: 20px
-    
+    padding: 20px;
+    display: block;
 }
 div{
     background-color: #5CA3D7;
     text-align: center;
 }
-p{
-    text-align: center;
-}
 
-h1{
-    text-align: center;
-}
+
+
 
 /*foto estilo*/
 @media (min-width: 576px){
@@ -23,6 +19,7 @@ h1{
         box-shadow: 3px 3px 3px rgb(82,0, 63);
         left: 80%;
         top: 740px;
+        display: block;
     }
     
 }
@@ -41,8 +38,16 @@ h1{
 #nombre{
     font-weight: bold;
     margin-top: 30%;
+    display: block;
+
 }
 
-.button{
-    margin-right: 0.9em
+.btn{
+    margin-right: 0.9em;
+    display: flex;
+    float: right;
+}
+
+h1{
+    display: flex;
 }
