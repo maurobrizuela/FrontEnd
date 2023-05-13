@@ -7,8 +7,8 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class SkillService {
+  //skillURL= 'https://backendmnb.onrender.com/skill/'
   skillURL= 'http://localhost:8080/skill/'
-  
   constructor(private httpClient: HttpClient) { }
 
   public list(): Observable<Skill[]>{

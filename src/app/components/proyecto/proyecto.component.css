@@ -1,5 +1,5 @@
 .row{
-    background-color: aquamarine;
+    background-color: #5CA3D7;
     padding: 20px;
 }
 .contenedor{
@@ -12,7 +12,7 @@
 .img-proyecto{
 box-shadow: 10px 10px 30px black;
 box-shadow: ejeX ejeY difumasion color coral;
-background-color: coral;
+background-color: #562BA8;
 position: relative;
 bottom: 70px;
 }

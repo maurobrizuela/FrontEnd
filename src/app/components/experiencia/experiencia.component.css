@@ -2,8 +2,12 @@
     padding: 20px;
 }
 div{
-    background-color:  rgb(12, 83, 134);
+    background-color:  #562BA8;
 }
 h1,h3{
     display: inline;
+    color: white;
+}
+tr{
+    color: white;
 }
