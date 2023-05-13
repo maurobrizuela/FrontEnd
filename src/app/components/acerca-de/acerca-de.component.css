@@ -1,6 +1,5 @@
 .row{
     padding: 20px;
-    display: block;
 }
 div{
     background-color: #5CA3D7;
@@ -13,13 +12,15 @@ div{
 /*foto estilo*/
 @media (min-width: 576px){
     #fotoDePerfil{
-        position: absolute;
-        width: 15%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px rgb(82,0, 63);
-        left: 80%;
-        top: 740px;
-        display: block;
+        
+    }
+
+    .descripcion{
+        display: flex;
+        justify-content:center;
+        align-items: center;
     }
     
 }
@@ -38,16 +39,7 @@ div{
 #nombre{
     font-weight: bold;
     margin-top: 30%;
-    display: block;
 
 }
 
-.btn{
-    margin-right: 0.9em;
-    display: flex;
-    float: right;
-}
 
-h1{
-    display: flex;
-}
