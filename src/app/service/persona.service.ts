@@ -7,8 +7,8 @@ import { persona } from '../model/persona.model';
   providedIn: 'root'
 })
 export class PersonaService {
-  //persURL = 'https://backendmnb.onrender.com/personas/';
-  persURL= 'http://localhost:8080/personas/'
+  persURL = 'https://backendmnb.onrender.com/personas/';
+  //persURL= 'http://localhost:8080/personas/'
   constructor(private httpClient: HttpClient) { }
 
   public list(): Observable<persona[]>{
